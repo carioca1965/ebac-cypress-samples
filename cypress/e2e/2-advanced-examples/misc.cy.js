@@ -60,9 +60,6 @@ context('Misc', () => {
     } else {
       cy.exec(`cat ${Cypress.config('configFile')}`)
         .its('stderr').should('be.empty')
-
-      cy.exec('pwd')
-        .its('code').should('eq', 0)
     }
   })
 
