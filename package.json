@@ -4,7 +4,7 @@
   "description": "Default Cypress Tests",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run --no-color"
+    "test": "npx cypress run"
   },
   "keywords": [],
   "author": "",
