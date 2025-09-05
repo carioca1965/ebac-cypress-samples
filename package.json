@@ -4,7 +4,8 @@
   "description": "Default Cypress Tests",
   "main": "index.js",
   "scripts": {
-    "test": "npx cypress run"
+    "test": "npx cypress run --reporter junit", 
+    "test-no-color": "npx cypress run --no-color"
   },
   "keywords": [],
   "author": "",
